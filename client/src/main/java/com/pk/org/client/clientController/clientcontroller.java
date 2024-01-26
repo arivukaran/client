@@ -25,11 +25,11 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @RestController
 @Configuration
 @ConfigurationProperties
-@RefreshScope
-class MessageRestController {
+//@RefreshScope
+//class MessageRestController {
 
 
-}
+//}
 public class clientcontroller {
 
    // private static final Logger logger = LogManager.getLogger(clientcontroller.class);
@@ -50,6 +50,8 @@ public class clientcontroller {
         return "Dynamic config client demo";
 
     }
+
+
 
 }
 
