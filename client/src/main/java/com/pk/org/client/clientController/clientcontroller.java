@@ -42,7 +42,7 @@ public class clientcontroller {
     public String hello()
 
     {
-        logger.debug(" I am in Error");
+        logger.debug(" I am in debug");
         logger.info("I am in info ");
         logger.warn("I am in warning");
         logger.error(" I am in Error");
